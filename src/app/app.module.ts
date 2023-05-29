@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { EmployeeDataComponent } from './components/employee-table/employee-data/employee-data.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TextTransformPipe } from './pipes/text-transform.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    EmployeeDataComponent
+    EmployeeDataComponent,
+    TextTransformPipe
   ],
   imports: [
     BrowserModule,
